@@ -2,14 +2,32 @@
 
 ## Overview
 
-This project implements a terminal-based support triage agent that processes support tickets across multiple domains (HackerRank, Claude, Visa).
+This project implements a terminal-based support triage agent that processes support tickets across multiple ecosystems:
+
+* HackerRank
+* Claude
+* Visa
 
 The agent:
 
-* Classifies the issue type
-* Determines product area
-* Decides whether to respond or escalate
-* Generates safe responses
+* Classifies issue types
+* Identifies product areas
+* Determines whether a case should be responded to or escalated
+* Generates safe and grounded responses
+
+The project was developed as part of the HackerRank Orchestrate May 2026 Challenge.
+
+---
+
+## Features
+
+* Multi-domain support ticket handling
+* Rule-based issue classification
+* Escalation detection for sensitive requests
+* Safe response generation
+* CSV input/output processing
+* Terminal-based execution
+* Lightweight implementation with minimal dependencies
 
 ---
 
@@ -17,8 +35,15 @@ The agent:
 
 ### 1. Text Normalization
 
-Input tickets may contain noisy formatting (line breaks, split words).
-A cleaning function standardizes text for reliable processing.
+Support tickets may contain:
+
+* line breaks
+* inconsistent formatting
+* noisy text
+
+A cleaning step standardizes input text before processing.
+
+---
 
 ### 2. Classification
 
@@ -30,52 +55,92 @@ Issues are categorized into:
 * fraud
 * faq
 
-### 3. Decision Logic
-
-A rule-based system determines action:
-
-* High-risk issues (fraud, billing, access) → escalated
-* Invalid/unethical requests → escalated
-* Technical issues → escalated
-* Simple queries → responded
-
-### 4. Response Generation
-
-* Escalated → routed to human support
-* Respond → directed to official help documentation
+Keyword-based matching is used for deterministic classification.
 
 ---
 
-## Files
+### 3. Decision Logic
 
-* main.py → core triage logic
-* output.csv → generated predictions
-* log.txt → processing logs
+The triage engine determines whether to:
+
+* respond safely
+* escalate to human support
+
+Examples of escalation:
+
+* fraud reports
+* refund/payment disputes
+* account access requests
+* unethical requests
+* technical blockers
+
+---
+
+### 4. Response Generation
+
+* Escalated tickets are routed to human support
+* Low-risk queries receive safe guidance responses
+
+---
+
+## Project Structure
+
+```text id="onxevx"
+main.py               -> Core triage engine
+support_tickets.csv   -> Input dataset
+output.csv            -> Generated predictions
+log.txt               -> Execution logs
+README.md             -> Project documentation
+```
 
 ---
 
 ## How to Run
 
-```bash
+```bash id="jlwm31"
 python3 main.py
 ```
 
 ---
 
+## Example Capabilities
+
+* Detect fraud-related requests
+* Handle billing/payment complaints
+* Route technical issues
+* Prevent unsafe or unsupported actions
+* Generate consistent support responses
+
+---
+
 ## Design Choices
 
-* Rule-based system ensures deterministic behavior
-* Avoids hallucinations from LLMs
+* Rule-based system for deterministic behavior
 * Safety-first escalation strategy
-* Lightweight (no external dependencies)
+* Lightweight architecture
+* Avoids unsupported claims and hallucinations
 
 ---
 
 ## Future Improvements
 
-* Add semantic search using embeddings
-* Improve response grounding using support corpus
-* Add confidence scoring
+* Semantic search using embeddings
+* Retrieval-Augmented Generation (RAG)
+* Confidence scoring
+* Support knowledge base integration
+* LLM-assisted summarization
 
 ---
 
+## Technologies Used
+
+* Python 3
+* Git & GitHub
+* CSV Processing
+* Rule-Based NLP Logic
+
+---
+
+## Author
+
+Veera Prasad
