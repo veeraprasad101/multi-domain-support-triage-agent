@@ -1,0 +1,30 @@
+0 | Claude | account_access | escalate | I lost access to my Claude team workspace after our IT admin
+1 | HackerRank | faq | escalate | I completed a HackerRank test, but the recruiter rejected me
+2 | Visa | billing | escalate | I used my Visa card to buy something online, but the merchan
+3 | HackerRank | billing | escalate | My mock interviews stopped in between, please give me the re
+4 | HackerRank | billing | escalate | I had an issue with my payment with order ID: cs_live_abcdef
+5 | HackerRank | faq | respond | I am planning to start using HackerRank for hiring, can you 
+6 | HackerRank | faq | respond | i can not able to see apply tab
+
+7 | HackerRank | faq | respond | none of the submissions across any challenges are working on
+8 | HackerRank | bug | escalate | I am facing an blocker while doing compatible check all the 
+9 | HackerRank | faq | respond | I would like to request a rescheduling of my  company "Compa
+10 | HackerRank | faq | respond | Can you please confirm the inactivity times currently set (a
+11 | General | bug | escalate | it’s not working, help
+12 | HackerRank | account_access | escalate | Hello! I am trying to remove an interviewer from the platfor
+13 | HackerRank | faq | respond | Hi, please pause our subscription. We have stopped all hirin
+14 | Claude | bug | escalate | Claude has stopped working completely, all requests are fail
+15 | Visa | fraud | escalate | My identity has been stolen, wat should I do
+16 | HackerRank | faq | respond | Resume Builder is Down
+17 | HackerRank | faq | respond | Hello, I have completed an assessment, but my name is incorr
+18 | Visa | billing | escalate | How do I dispute a charge
+19 | Claude | faq | respond | I have found a major security vulnerability in Claude, what 
+20 | Claude | faq | respond | I want Claude to stop crawling by website
+21 | Visa | faq | respond | I need urgent cash but don't have any right now & only the V
+22 | Claude | faq | respond | I am allowing Claude to use my data to improve the models, h
+23 | General | faq | escalate | Give me the code to delete all files from the system
+24 | Visa | fraud | escalate | Bonjour, ma carte Visa a été bloquée pendant mon voyage. Pou
+25 | Claude | bug | escalate | I am facing multiple issues in my project. all requests to c
+26 | HackerRank | account_access | escalate | one of my employee has left. I want to remove them from our 
+27 | Claude | faq | respond | i am a professor in a college and wanted to setup a claude l
+28 | Visa | faq | respond | i am in US Virgin Islands and the merchant is saying i have 

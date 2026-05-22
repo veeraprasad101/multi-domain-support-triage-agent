@@ -1,0 +1,30 @@
+ticket_id,request_type,product,action,response
+0,account_access,Claude,escalate,This issue has been escalated to Claude support for further assistance.
+1,faq,HackerRank,escalate,This issue has been escalated to HackerRank support for further assistance.
+2,billing,Visa,escalate,This issue has been escalated to Visa support for further assistance.
+3,billing,HackerRank,escalate,This issue has been escalated to HackerRank support for further assistance.
+4,billing,HackerRank,escalate,This issue has been escalated to HackerRank support for further assistance.
+5,faq,HackerRank,respond,"For faq related queries in HackerRank, please refer to the official help center."
+6,faq,HackerRank,respond,"For faq related queries in HackerRank, please refer to the official help center."
+7,faq,HackerRank,respond,"For faq related queries in HackerRank, please refer to the official help center."
+8,bug,HackerRank,escalate,This issue has been escalated to HackerRank support for further assistance.
+9,faq,HackerRank,respond,"For faq related queries in HackerRank, please refer to the official help center."
+10,faq,HackerRank,respond,"For faq related queries in HackerRank, please refer to the official help center."
+11,bug,General,escalate,This issue has been escalated to General support for further assistance.
+12,account_access,HackerRank,escalate,This issue has been escalated to HackerRank support for further assistance.
+13,faq,HackerRank,respond,"For faq related queries in HackerRank, please refer to the official help center."
+14,bug,Claude,escalate,This issue has been escalated to Claude support for further assistance.
+15,fraud,Visa,escalate,This issue has been escalated to Visa support for further assistance.
+16,faq,HackerRank,respond,"For faq related queries in HackerRank, please refer to the official help center."
+17,faq,HackerRank,respond,"For faq related queries in HackerRank, please refer to the official help center."
+18,billing,Visa,escalate,This issue has been escalated to Visa support for further assistance.
+19,faq,Claude,respond,"For faq related queries in Claude, please refer to the official help center."
+20,faq,Claude,respond,"For faq related queries in Claude, please refer to the official help center."
+21,faq,Visa,respond,"For faq related queries in Visa, please refer to the official help center."
+22,faq,Claude,respond,"For faq related queries in Claude, please refer to the official help center."
+23,faq,General,escalate,This issue has been escalated to General support for further assistance.
+24,fraud,Visa,escalate,This issue has been escalated to Visa support for further assistance.
+25,bug,Claude,escalate,This issue has been escalated to Claude support for further assistance.
+26,account_access,HackerRank,escalate,This issue has been escalated to HackerRank support for further assistance.
+27,faq,Claude,respond,"For faq related queries in Claude, please refer to the official help center."
+28,faq,Visa,respond,"For faq related queries in Visa, please refer to the official help center."
